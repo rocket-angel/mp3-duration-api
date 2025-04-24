@@ -1,0 +1,14 @@
+{
+  "name": "mp3-duration-api",
+  "version": "1.0.0",
+  "description": "Simple API to extract MP3 duration via file upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "music-metadata": "^7.14.0"
+  }
+}
